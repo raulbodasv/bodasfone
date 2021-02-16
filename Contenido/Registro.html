@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+                    <!-- DIRECCION DEL CSS-->
+        <link rel="stylesheet" href="../CSS/CSS-Principal.css"/>  
+
+                <!-- NOMBRE PESTAÑA NAVEGACIÓN-->
+        <title>Bodasfone - Registro</title>
+
+                <!-- LOGO PESTAÑA DE NAVEGACIÓN-->
+        <link rel="icon" href="../Fotos/Logo-index.ico">
+
+    </head>
+ <body>
+     <div style="background: white;"> 
+        <img src="../Fotos/Bodasfone-2020.png"/>
+    </div>
+
+
+                 <!------MENU DESPLEGABLE-------->
+        <div id="cabecera">
+			<ul class="panel">
+				<li><a href="../index.html">Inicio</a></li>
+				<li><a href="Productos.html">Productos</a>
+					<ul><li><a href="Productos.html#apple">Apple</a></li>
+						<li><a href="Productos.html#android">Android</a></li>
+						<li><a href="Productos.html#windows">Windows</a></li>
+					</ul>
+				</li>
+				<li><a href="Quienes-somos.html">¿Quienes somos?</a></li>
+                <li><a href="Contacto.html">Contacto</a></li>
+                <li><a href="Registro.html">Registro</a></li>
+			</ul>
+        </div>
+
+        
+        <p class="registroTitulo">Registro</p>
+
+            <form>
+                <fieldset class="espaciosTablaRegistro">
+                    <legend>Datos de acceso</legend>
+             <div class="cuerpoFormulario">
+                    Nombre de usuario </br>
+                    <input type="text" maxlength="16" size="30" title="Introduce tu nombre de usuario" required/>
+                </br></br>
+
+                    Contraseña </br>
+                    <input type="password" size="30" title="Introduce una contraseña segura" required/>
+                </br></br>
+            </div>
+            </fieldset>
+
+        
+
+            <fieldset class="espaciosTablaRegistro">
+                <legend>Información personal</legend>
+         <div class="cuerpoFormulario">
+
+                Nombre: </br>
+                <input type="text" maxlength="16" size="30" title="Introduce tu nombre" required/> 
+            </br></br>
+
+                Apellidos: </br>
+                <input type="text" size="30" title="Introduce tus apellidos" required/>
+            </br></br>
+
+                Fecha de Nacimiento: </br>
+                <input type="date" title=" Dia/Mes/Año" placeholder="dd/mm/aaaa" required/>
+            </br></br>
+
+                Direccion: </br>
+                <input type="text" size="50" required/>
+            </br></br>
+
+                Telefono: </br>
+                <input type="text" maxlength="9" size="20" pattern="[0-9]{9}" title="Solo 9 números"required/>
+            </br></br>
+
+                Correo electrónico: </br> 
+                <input type="email" title="Introduce un correo válido. Ej: raulbodas@riberadeltajo.com" size="35" required/>
+        </div>
+        </fieldset>
+        
+        <fieldset class="espaciosTablaRegistro">
+            <legend>Otra Información</legend>
+                <div class="cuerpoFormulario">
+
+                    ¿Como descubriste esta web?</br>
+                    <input type="radio" name="descWeb"/> Anuncios de Google  </br>
+                    <input type="radio" name="descWeb"/> Recomendada por un amigo/familiar </br>
+                    <input type="radio" name="descWeb"/> Buscando un producto </br>
+                    <input type="radio" name="descWeb"/> Redes Sociales </br>
+                    <input type="radio" name="descWeb"/> Otros </br>
+        
+                </div>
+        </fieldset>
+    
+
+    <fieldset class="espaciosTablaRegistro">
+        <div class="terminosCond">
+
+        <input type="checkbox" required> * He leído y acepto la <a href="https://policies.google.com/privacy?hl=es"> política de privacidad.</a>
+        </br></br>
+
+        <input type="checkbox"> Recibir descuentos exclusivos, novedades y tendencias por e-mail. Me puedo darme de baja desde mi panel.
+        </br></br>
+        </div>
+    </fieldset>
+        
+        
+     <div>
+      <input type="submit" value="Registrarse" class="botonesForm"/>
+      <input type="reset" value="Reiniciar campos"class="botonesForm"/>
+    </div>
+    </form>
+
+
+        <div class="pieBody">
+            <table>
+                <tr>
+                   <div class="espaciosPie"> <th> Bodasfone </th></div>
+                   <div class="espaciosPie"><th> Av. de Madrid, N-Va, km. 114, 5, 45600 Talavera de la Reina, Toledo </th></div>
+                    <div class="espaciosPie"><th> raulbodasvazquez.daw2020@riberadeltajo.es </th></div>
+                </tr>
+            </table>
+        </div>
+          
+
+        </body>
+        </html>

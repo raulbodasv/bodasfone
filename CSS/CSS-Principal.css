@@ -1,0 +1,532 @@
+/*----- LETRA IMPORTADA PARA EL PRECIO -----*/
+@import url('https://fonts.googleapis.com/css2?family=Bungee& display=swap'); 
+
+* {
+    margin:0px;
+    padding:0px;
+}
+
+body {
+background-color:rgba(0, 0, 0, 0.836);
+}
+
+#cabecera {
+    margin: auto;
+    font-family:Arial, Helvetica, sans-serif;
+    width: 550px;
+    position: sticky;
+    top: 0;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+.panel li a {
+        background-color: black ;
+        color: white;
+        text-decoration: none; /*Quita las decoraciones por defecto*/
+        padding: 18px ;
+        display: block; /*Hace un bloque*/
+}
+.panel li a:hover{ /*:hover hace que cuando apuntes con el raton interactue*/
+        background-color: rgb(54, 54, 54);
+}
+
+
+.panel > li {
+    float: left;
+}
+
+.panel li ul{
+    display: none;
+    position:  absolute;
+    min-width: 140px;
+}
+
+.panel li:hover > ul {
+    display: block;
+}
+
+.panel li ul li {
+    position: relative;
+}
+
+
+.pieBody table tr th {
+    width: 500px;
+    height: 100px ;
+    padding-right: 4em;
+    padding-top: 1em;
+
+}
+
+
+
+
+
+
+
+.pieBody {
+    background-color: rgb(85, 51, 51);
+    color: rgb(255, 255, 255);
+    font-size: 26px;
+    margin-top: 4em;
+   }
+
+
+
+
+
+
+        /*--------PAGINA DE INICIO (INDEX)---------*/
+
+#entradaIn {
+    color: aqua;
+    font-size: 85px;
+    text-align: center;
+    margin-top: 3.3em;
+    margin-bottom: 4em;
+    animation: aparicion 5s;  /*Es una animacion como de aparición*/
+
+}
+
+@keyframes aparicion{
+    from{
+        width: 200%;
+    }
+    to{
+        width: 100%;
+    }
+}
+
+#bodasfone {
+    color: red;
+    font-size: 85px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0px 0px 20px rgb(255, 133, 133); /*Añadir sombra al texto*/
+    
+}
+#ofertaSanVal{
+    
+    width: 77em;
+    
+}
+
+
+#tablaOferta{
+    
+   border: solid;
+   margin: auto;
+   padding-bottom: 0%;
+
+}
+
+.fotoMovil{
+ width: 300px;
+
+}
+
+.nombreMovil{
+   
+   font-size: 30px;
+   color: rgb(233, 171, 171);
+   font-family: 'Lucida Sans';
+   text-align: center;
+   text-decoration: none;
+   padding-left: 1em;
+
+}
+
+.precio{
+    
+    font-size: 50px;
+    font-family: 'Bungee';
+    color: rgb(151, 252, 255);
+    text-align: center;
+   }
+
+
+#titlDif{
+    margin: 3em 3em 1em;
+    padding-bottom: 10px;
+    color: rgb(151, 234, 255);
+    border-bottom: dotted 2px rgb(255, 255, 255);
+}
+
+
+.tablaDif h2{
+    
+    padding: 0em 3em 0em 4em;
+    text-align: justify;
+    color: rgb(133, 10, 133);
+    border-right: thin dotted slategrey; 
+   
+}
+
+.tablaDif h1{
+    border-right: thin dotted slategrey; 
+    padding: 0em 5em 0em 3em;
+    text-align: justify;
+    color: rgb(161, 90, 161);
+    
+}
+
+.tablaDif h3{
+    border-right: thin dotted slategrey; 
+    padding: 0em 6em 0em 5.1em;
+    color: rgb(197, 144, 197);
+    
+}
+
+
+
+
+
+
+
+
+
+/*------ PAGINA PRODUCTOS ------*/
+
+.marcaProducto{
+    color: red;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0px 0px 20px rgba(0, 0, 0);
+    margin-bottom: 1em;
+}
+
+.productosTitulo{
+    color: red;
+    font-size: 85px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-shadow: 0px 0px 20px rgb(255, 133, 133);
+    animation: aparicion 5s;  /*Es una animacion como de aparición*/
+    margin-top: 3.3em;
+    margin-bottom: 4em;
+}
+
+.tablaProductos{
+    padding-bottom: 10em;
+}
+
+
+.clasificaciónProducto {
+   font-size: 30px;
+   color: rgb(255, 255, 255);
+   font-family: 'Lucida Sans'; 
+   width: 800px;
+   height: 100px;
+   border: 1mm black solid;
+
+}
+
+.fotoProducto{
+    display: block;
+    margin-left: 3em;
+    margin-right: 2em;
+    text-align: center;
+    margin: auto; 
+   
+}
+
+.nombreProducto{
+   font-size: 30px;
+   color: rgb(233, 171, 171);
+   font-family: 'Lucida Sans';
+   text-align: center;
+   background-color: rgba(0, 0, 0, 0.336);
+    text-align: center;
+    margin: auto; 
+
+}
+
+.precioProducto{
+    font-size: 50px;
+    font-family: 'Bungee';
+    color: rgb(151, 252, 255);
+    text-align: center;
+    
+}
+
+.descripcionProducto{
+    text-align: justify;
+    color: rgb(161, 171, 255);
+    width: 400px;
+    padding: 40px ;
+    background-color: rgba(0, 0, 0, 0.336);
+    text-align: center;
+    margin: auto; 
+
+}
+
+
+b {
+    color: rgb(151, 252, 255);
+}
+
+.reviewProducto{
+    height: 370px;
+    width: 400px;
+}
+
+
+
+
+
+
+
+/*------ PAGINA REGISTRO ------*/
+
+.registroTitulo{
+    color: red;
+    font-size: 85px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-shadow: 0px 0px 20px rgb(255, 133, 133);
+    animation: aparicion 5s;
+    margin-top: 3.3em;
+    margin-bottom: 4em;
+}
+
+legend {
+    color: red;
+    font-size: 20px;
+    font-family: Bungee;
+    text-shadow: 0px 0px 10px rgb(0, 0, 0);
+    margin-bottom: 1em;
+    margin-top: 2em;
+    text-align: center;
+    background-color: rgb(99, 38, 38);
+    
+    
+}
+
+.espaciosTablaRegistro{
+    margin-bottom: 2em;
+}
+
+
+.cuerpoFormulario{
+    color: rgb(227, 255, 151);
+    margin-bottom: 2em;
+    text-align: justify;
+    margin-left: 40em;
+      
+
+}
+
+.terminosCond{
+
+    font-size: 19px;
+    color: rgb(255, 94, 0);
+    margin-top: 2em;
+    margin-bottom: 2em;
+    text-align: justify;
+    margin-left: 20em;
+
+}
+
+.botonesForm {
+    margin-left: 15em;
+    font-size: 25px;
+    color: rgb(78, 33, 33);
+}
+
+
+
+
+
+
+
+/*------ PAGINA CONTACTO ------*/
+
+.tituloContacto{
+    color: red;
+    font-size: 85px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-shadow: 0px 0px 20px rgb(255, 133, 133);
+    animation: aparicion 5s;
+    margin-top: 3.3em;
+    margin-bottom: 4em;
+}
+
+#primTextContacto{
+    color: rgb(227, 255, 151);
+    font-size: 2.5em;
+    padding-left: 2em;
+    padding-right: 4em;
+    text-align: justify;
+
+}
+
+.modoContacto{
+    font-size: 38px;
+    font-family: serif;
+    color: rgb(170, 39, 39);
+    padding-left: 5em;
+    padding-top: 2em;
+    padding-bottom: 0.5em;
+    text-shadow: 0px 0px 7px rgb(0, 0, 0);
+    text-decoration: underline;    
+
+}
+
+.rrssContacto{
+    font-size: 1.3em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(103, 199, 255);
+
+}
+
+.enlaceRrssContacto{
+    text-decoration: none;
+
+}
+
+.iconosContacto{
+    width: 3em ;
+    padding-left: 7em;
+    padding-bottom: 1.5em;
+    padding-right: 1em;
+    margin-top: 2em;
+
+}
+
+.titleFormContacto{
+    font-size: 38px;
+    font-family: serif;
+    color: rgb(170, 39, 39);
+    padding-top: 2em;
+    padding-bottom: 0.5em;
+    text-shadow: 0px 0px 7px rgb(0, 0, 0);
+    text-decoration: underline;    
+    padding-left: 5em;
+
+}
+
+
+#fieldsetContacto{
+    /*display: contents;*/
+    border-radius: 2em;
+    border-color: black;
+    margin-right: 15em;
+    margin-left: 15em;
+    margin-top: 2em;
+    padding-bottom: 2em;
+    
+
+}
+
+.campoFormContacto{
+    color: rgb(141, 129, 129);
+    font-size: 20px;
+    padding-top: 1em;
+    padding-left: 10em;
+    padding-bottom: 0.5em;
+    text-align: justify;
+
+}
+
+.textFormContacto{
+    margin-left: 15em;
+}
+
+#textareaFormContacto{
+    margin-left: 15em;
+    width: 30em;
+    height: 10em;
+}
+
+#botonEnviarFormContacto{
+    padding: 5px;
+    margin-left: 15em;
+    margin-top: 1em;
+    font-size: 25px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    
+}
+
+#direccionContacto{
+    font-size: 1.3em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(103, 199, 255);
+    margin-left: 10em;
+}
+
+#mapaContacto{
+    width: 450px;
+    height: 400px;
+    margin-left: 1em;
+    margin-top: 1em;
+    
+    
+    border: black; /*Aparece un borde de serie*/
+
+}
+
+#fototiendaContacto{
+    width: 450px;
+    height: 400px;
+    margin-left: 13em;
+    margin-top: 1em;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+/*------ PAGINA QUIEN SOMOS ------*/
+
+#tituloQuiSom{
+    color: red;
+    font-size: 85px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-shadow: 0px 0px 20px rgb(255, 133, 133);
+    animation: aparicion 5s;
+    margin-top: 3.3em;
+    margin-bottom: 3.9em;
+
+}
+
+.tituloPartesQuiSom{
+    font-size: 38px;
+    font-family: serif;
+    color: rgb(170, 39, 39);
+    padding-left: 5em;
+    padding-bottom: 0.5em;
+    padding-top: 3em;
+    text-shadow: 0px 0px 7px rgb(0, 0, 0);
+    
+}
+
+.cuerpoQuiSom{
+    color: rgb(205, 230, 245);
+    font-size: 20px;
+    padding-left: 10em;
+    padding-right: 12em;
+    text-align: justify;
+}
+
+.imgLogoQuiSom{
+    width: 19em;
+    padding-left: 15em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+
+}
+
+
+
